@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Quantico", sans-serif
+}
+.ota{
+    margin: 0 auto;
+    width: 1273px;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #272C3D;
+}
+.nav ul{
+    display: flex;
+    gap: 25px;
+    padding:20px 0  20px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+.nav ul li:hover{
+    color: #FF9C28;
+}
+.nav_input{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    padding: 20px 36px;
+}
+.nav_input input{
+    width: 241px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #404864;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 6px 9px;
+    border: none;
+    color: white;
+}
+.nav_input select{
+    width: 165px;
+    height: 30px;
+    background-color: #00000080;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header_img{
+    width: 1273px;
+    height: 554px;
+    background: url(img/Bg.png);
+}
+.s1{
+    width: 100%;
+    background-color: #000000;
+    padding-top: 45px;
+}
+.s1 h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+.s1_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    padding: 0 143px;
+    margin-bottom: 59px;
+}
+.s1_content{
+    width: 1189px;
+    height: 928px;
+    background-color: #1B1E27;
+    margin: 0 auto;
+    padding: 61px 241px; 
+}
+.h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+.s11{
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box2{
+    margin-top: 142px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #272C3D;
+    width: 100%;
+    height: 70px;
+    padding: 22px 47px;
+}
+.footer ul{
+    display: flex;
+    gap: 25px;
+    padding:20px 0  20px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+.footer ul li:hover{
+    color: #FF9C28;
+}
